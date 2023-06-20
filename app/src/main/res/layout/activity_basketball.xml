@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="22dp"
+    android:paddingBottom="22dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:background="@drawable/back_basketball"
+    tools:context=".BasketBallActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_field"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/field_basketball">
+
+        <ImageView
+            android:id="@+id/iv_ball_0"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_0"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_1"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_0"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_2"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_0"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_3"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_0"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_4"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_0"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_5"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_1"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_6"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_1"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_7"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_1"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_8"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_1"/>
+
+        <ImageView
+            android:id="@+id/iv_ball_9"
+            android:layout_width="@dimen/dimenBall"
+            android:layout_height="@dimen/dimenBall"
+            android:src="@drawable/ball_basketball_1" />
+
+    </RelativeLayout>
+
+</FrameLayout>

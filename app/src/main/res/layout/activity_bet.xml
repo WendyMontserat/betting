@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_bet"
+    tools:context=".BetActivity">
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/button_start"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_first"
+            android:layout_marginStart="20sp"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            tools:src="@drawable/team_fonbet"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="180sp"
+            android:layout_height="80sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:orientation="vertical"
+            android:background="@drawable/back_bet_choose">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorBetText"
+                android:textSize="16dp"
+                android:text="@string/bet"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="160sp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/fl_first_10"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:background="@drawable/back_bet_">
+
+                    <ImageView
+                        android:id="@+id/iv_first_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bet_10"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_first_20"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:padding="@dimen/dimenBetSelectBorder"
+                    android:background="@drawable/back_bet_">
+
+                    <ImageView
+                        android:id="@+id/iv_first_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bet_20"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_first_50"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:background="@drawable/back_bet_">
+
+                    <ImageView
+                        android:id="@+id/iv_first_50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bet_50"/>
+
+                </FrameLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="end"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_second"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            tools:src="@drawable/team_xbet"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="180sp"
+            android:layout_height="80sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:orientation="vertical"
+            android:background="@drawable/back_bet_choose">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorBetText"
+                android:textSize="16dp"
+                android:text="@string/bet"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/fl_second_10"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:background="@drawable/back_bet_">
+
+                    <ImageView
+                        android:id="@+id/iv_second_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bet_10"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_second_20"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+
+
+                    android:background="@drawable/back_bet_">
+
+                    <ImageView
+                        android:id="@+id/iv_second_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bet_20"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_second_50"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:background="@drawable/back_bet_">
+
+                    <ImageView
+                        android:id="@+id/iv_second_50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bet_50"/>
+
+                </FrameLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

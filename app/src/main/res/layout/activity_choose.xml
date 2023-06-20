@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/jdem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vs_bg"
+        android:visibility="visible">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lot"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/baske" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/xbet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sport_bg"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <FrameLayout
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:layout_gravity="end"
+            android:background="@drawable/scoreboard"
+            android:paddingLeft="22dp"
+            android:paddingTop="8dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorBonusText"
+                android:textSize="16sp"
+                tools:text="@string/totalScore" />
+
+        </FrameLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_basketball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bask_btn" />
+
+        <ImageView
+            android:id="@+id/iv_volleyball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/volley_btn" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3" />
+
+        <ImageView
+            android:id="@+id/iv_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exit_btn" />
+
+        <TextView
+            android:id="@+id/pololo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <WebView
+        android:id="@+id/weber"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</RelativeLayout>

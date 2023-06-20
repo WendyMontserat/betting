@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1059971235733",
+    "project_id": "bet-vs-fnbet",
+    "storage_bucket": "bet-vs-fnbet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059971235733:android:4c363ed58b339b970e009c",
+        "android_client_info": {
+          "package_name": "com.xbetvsfonbet.competition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059971235733-05s5qokugses56up5echpojdak4umpja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB9J81wYRk9TGS188mboTz2I_Q4yo0zF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059971235733-05s5qokugses56up5echpojdak4umpja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

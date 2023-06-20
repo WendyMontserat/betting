@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="dimenScoreBorder">2dp</dimen>
+    <dimen name="dimenScoreBorderRadius">5dp</dimen>
+
+    <dimen name="dimenBetRadius">20dp</dimen>
+    <dimen name="dimenBetSelectBorder">3dp</dimen>
+
+    <dimen name="dimenBall">58dp</dimen>
+
+</resources>

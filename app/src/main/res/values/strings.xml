@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">1bet vs fnbet</string>
+
+    <string name="totalScore">Score: %d</string>
+
+    <string name="bet">Choose Bet</string>
+
+    <string name="winner">%s Win</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="scoring">Bonus: </string>
+    <string name="score">1000</string>
+</resources>
